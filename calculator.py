@@ -5,7 +5,8 @@ def subtract(x, y):
     return x - y
 
 # Add multiplication function here
-
+def multiply(x, y):
+    return x * y
 # Add division function here
 def divide(x,y):
     if (y == 0):
