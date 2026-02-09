@@ -5,7 +5,7 @@ def subtract(x, y):
     return x - y
 
 # Add multiplication function here
-def multiply(x, y):
+def mult(x, y):
     return x * y
 # Add division function here
 def divide(x,y):
@@ -33,7 +33,7 @@ while (choice != "Q" and choice != "q"):
         elif choice == '-':
             print(f"{num1} - {num2} = {subtract(num1, num2)}")
         elif choice == '*':
-            print(f"{num1} * {num2} = {multiply(num1, num2)}")
+            print(f"{num1} * {num2} = {mult(num1, num2)}")
         elif choice == '/':
             print(f"{num1} / {num2} = {divide(num1, num2)}")
     else:
